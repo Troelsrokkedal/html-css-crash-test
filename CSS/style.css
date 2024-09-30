@@ -1,22 +1,32 @@
 body, ul, li, h1, h2, a{
   
   /* Insert a margin property and set it's value to 0 */
+  margin: 0;
   /* Insert a padding property and set it's value to 0 */
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   /* Insert a font-family property and set it's value to tahoma
   font-family: tahoma;
 }
 p{
   /* Insert a font-size property and set it's value to 18px */
+  font-size: 18px;
 }
 header{
   background-color: #F63232;
-  padding: 20px 0;
+  padding: 30px 0 !important;
   text-align: center;
   position: fixed;
   width: 100%;
   top: 0;
   left: 0;
   z-index: 1;
+  color: white;
+  border: 8px, solid white;
+  display: inline-block;
+  padding: 6px 12px; 
+  border-radius: 36px;
+
 }
 header h1{
   /* Insert a color property and set it's value to white  */
@@ -39,9 +49,11 @@ header h1{
   position: absolute;
   left: 0;
   top: 30%;
+  font-size: 1.4em;
 } 
 .banner .welcome span{
   /* Insert a font-size property and set it's value to 1.4em */
+  font-size: 1.4em;
 }
 nav{
   background: #F4F4F4;
@@ -68,6 +80,7 @@ nav li a{
 }
 nav li a:hover{
   /* Insert a text-decoration property and set it's value to underline */
+  text-decoration: underline;
 }
 nav li a.join{
   color: #F63232;
@@ -83,6 +96,7 @@ main{
 article h2{
   /* Insert a color property and set it's value to #F63232  */
   /* Insert a font-size property and set it's value to 48px */
+  color: #F63232;
   font-size: 48px;
 }
 article p{
@@ -146,6 +160,11 @@ form input{
   /* Insert a font-size property and set it's value to 24px */
   /* Insert a border-radius property and set it's value to 28px */ 
   /* Insert a border property and set it's value to 4px solid and white */
+  margin: 20px 0px;
+  padding: 10px 20px;
+  font-size: 24px;
+  border-radius: 28px;
+  border: 4px white;
 }
 form textarea{
   margin: 20px 0;
@@ -157,6 +176,8 @@ form textarea{
 form input:focus{
   /* Insert a border property with following values: 4px dashed #4B4B4B */
   /* Insert a outline property with following values: none */
+  border: 4px dashed #4B4B4B;
+  outline: none;
 }
 form textarea:focus{
   border: 4px dashed #4B4B4B;
@@ -171,6 +192,9 @@ input[type="submit"] {
   /* Insert a font-size property with following value: xx-large */
   /* Insert a color property with following value: ghostwhite */
     color: ghostwhite;
+    width: 39rem;
+    background-color: red;
+    font-size: xx-large;
 }
 input[type="submit"]:focus {
     border: 4px dashed ghostwhite;
